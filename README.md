@@ -16,7 +16,7 @@ docker-compose run helloworld php app/puphpteer_hello_world.php
     - `php 7.2`
     -  `"nesk/puphpeteer": "^1.6"`
 
-* use [`ivastly/puphpeteer`](https://hub.docker.com/r/vastly/puphpeteer) as your base docker image
+* use [`vastly/puphpeteer`](https://hub.docker.com/r/vastly/puphpeteer) as your base docker image
 
 * Keep in mind mandatory options for puphpeteer's `browser` object in your own scripts:
 ```php
