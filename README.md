@@ -1,10 +1,10 @@
 # Rationale
-A docker image for [Puphpeteer](git@github.com:ivastly/docker-puphpeteer.git), 
+A docker image for [Puphpeteer](https://github.com/nesk/puphpeteer), 
 PHP port of headless Chrome driver [puppeteer](https://pptr.dev).
 
 # Usage
 
-## Hello World
+## Hello World - creates a screenshot of a web-page using Puphpeteer
 ```bash
 docker-compose build
 docker run --rm --interactive --tty --volume $PWD:/app composer install
@@ -12,11 +12,11 @@ docker-compose run helloworld php app/puphpteer_hello_world.php
 ```
 
 ## Real Project
-* create your own `composer.json`, but keep requirements from the original one:
+* create your own `composer.json`, but keep requirements from the [original one](https://github.com/ivastly/docker-puphpeteer/blob/master/composer.json):
     - `php 7.2`
     -  `"nesk/puphpeteer": "^1.6"`
 
-* use `ivastly/puphpeteer` as your base docker image
+* use [`ivastly/puphpeteer`](https://hub.docker.com/r/vastly/puphpeteer) as your base docker image
 
 * Keep in mind mandatory options for puphpeteer's `browser` object in your own scripts:
 ```php
