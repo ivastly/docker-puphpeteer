@@ -1,0 +1,22 @@
+{
+  "name": "ivastly/docker-puphpeteer",
+  "description": "Fully functional docker image for puphpeteer.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "github.com/ivastly"
+    }
+  ],
+  "require": {
+    "php": "7.2",
+    "ext-sockets": "*",
+    "nesk/puphpeteer": "^1.6"
+  },
+  "config": {
+    "platform": {
+      "php": "7.2",
+      "ext-sockets": "7.2.23"
+    }
+  }
+}

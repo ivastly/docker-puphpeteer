@@ -1,0 +1,9 @@
+version: '3.0'
+
+services:
+  helloworld:
+    container_name: helloworld
+    build:
+      context: ./hello-world/
+    volumes:
+      - ./:/app/
