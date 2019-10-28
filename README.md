@@ -8,7 +8,7 @@ PHP port of headless Chrome driver [puppeteer](https://pptr.dev).
 ```bash
 docker-compose build
 docker run --rm --interactive --tty --volume $PWD:/app composer install
-docker-compose run helloworld php app/puphpteer_hello_world.php 
+docker-compose run helloworld php puphpeteer_hello_world.php
 ```
 
 ## Real Project
